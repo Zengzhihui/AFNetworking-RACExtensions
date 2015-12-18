@@ -7,39 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FDD92C01C23D99200B6755E /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDD92BC1C23D97B00B6755E /* AFNetworking.framework */; };
+		3FDD92C11C23D99200B6755E /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDD92BD1C23D97B00B6755E /* ReactiveCocoa.framework */; };
 		84DA97D7196C9FEA0064A552 /* RACAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA97D6196C9FEA0064A552 /* RACAFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84DA97DD196C9FEA0064A552 /* RACAFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA97D1196C9FEA0064A552 /* RACAFNetworking.framework */; };
-		84DA97F5196CA0430064A552 /* AFHTTPRequestOperationManager+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA97ED196CA0430064A552 /* AFHTTPRequestOperationManager+RACSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84DA97F6196CA0430064A552 /* AFHTTPRequestOperationManager+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA97EE196CA0430064A552 /* AFHTTPRequestOperationManager+RACSupport.m */; };
 		84DA97F7196CA0430064A552 /* AFHTTPSessionManager+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA97EF196CA0430064A552 /* AFHTTPSessionManager+RACSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84DA97F8196CA0430064A552 /* AFHTTPSessionManager+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA97F0196CA0430064A552 /* AFHTTPSessionManager+RACSupport.m */; };
-		84DA97F9196CA0430064A552 /* AFURLConnectionOperation+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA97F1196CA0430064A552 /* AFURLConnectionOperation+RACSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84DA97FA196CA0430064A552 /* AFURLConnectionOperation+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA97F2196CA0430064A552 /* AFURLConnectionOperation+RACSupport.m */; };
 		84DA97FB196CA0430064A552 /* RACSubscriber+AFProgressCallbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA97F3196CA0430064A552 /* RACSubscriber+AFProgressCallbacks.h */; };
 		84DA97FC196CA0430064A552 /* RACSubscriber+AFProgressCallbacks.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA97F4196CA0430064A552 /* RACSubscriber+AFProgressCallbacks.m */; };
-		84DA9812196CA05D0064A552 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA97FF196CA05D0064A552 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84DA9813196CA05D0064A552 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA9800196CA05D0064A552 /* AFHTTPRequestOperation.m */; };
-		84DA9814196CA05D0064A552 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA9801196CA05D0064A552 /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84DA9815196CA05D0064A552 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA9802196CA05D0064A552 /* AFHTTPRequestOperationManager.m */; };
-		84DA9816196CA05D0064A552 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA9803196CA05D0064A552 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84DA9817196CA05D0064A552 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA9804196CA05D0064A552 /* AFHTTPSessionManager.m */; };
-		84DA9818196CA05D0064A552 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA9805196CA05D0064A552 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84DA9819196CA05D0064A552 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA9806196CA05D0064A552 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84DA981A196CA05D0064A552 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA9807196CA05D0064A552 /* AFNetworkReachabilityManager.m */; };
-		84DA981B196CA05D0064A552 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA9808196CA05D0064A552 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84DA981C196CA05D0064A552 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA9809196CA05D0064A552 /* AFSecurityPolicy.m */; };
-		84DA981D196CA05D0064A552 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA980A196CA05D0064A552 /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84DA981E196CA05D0064A552 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA980B196CA05D0064A552 /* AFURLConnectionOperation.m */; };
-		84DA981F196CA05D0064A552 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA980C196CA05D0064A552 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84DA9820196CA05D0064A552 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA980D196CA05D0064A552 /* AFURLRequestSerialization.m */; };
-		84DA9821196CA05D0064A552 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA980E196CA05D0064A552 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84DA9822196CA05D0064A552 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA980F196CA05D0064A552 /* AFURLResponseSerialization.m */; };
-		84DA9823196CA05D0064A552 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA9810196CA05D0064A552 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84DA9824196CA05D0064A552 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA9811196CA05D0064A552 /* AFURLSessionManager.m */; };
-		84DA9887196CA15D0064A552 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA9878196CA1520064A552 /* ReactiveCocoa.framework */; };
-		84DA98A3196CA2070064A552 /* AFHTTPRequestOperationManager+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA97EE196CA0430064A552 /* AFHTTPRequestOperationManager+RACSupport.m */; };
 		84DA98A4196CA2070064A552 /* AFHTTPSessionManager+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA97F0196CA0430064A552 /* AFHTTPSessionManager+RACSupport.m */; };
-		84DA98A5196CA2070064A552 /* AFURLConnectionOperation+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA97F2196CA0430064A552 /* AFURLConnectionOperation+RACSupport.m */; };
 		84DA98A6196CA2070064A552 /* RACSubscriber+AFProgressCallbacks.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA97F4196CA0430064A552 /* RACSubscriber+AFProgressCallbacks.m */; };
 		84DA98A7196CA2070064A552 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA9800196CA05D0064A552 /* AFHTTPRequestOperation.m */; };
 		84DA98A8196CA2070064A552 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA9802196CA05D0064A552 /* AFHTTPRequestOperationManager.m */; };
@@ -55,7 +31,6 @@
 		84DA98DF196CA4E00064A552 /* RACAFHTTPClientSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA98DC196CA4E00064A552 /* RACAFHTTPClientSpec.m */; };
 		84DA9908196CA51F0064A552 /* libExpecta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA98EA196CA4F70064A552 /* libExpecta.a */; };
 		84DA9909196CA51F0064A552 /* libSpecta-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA98FD196CA4FB0064A552 /* libSpecta-OSX.a */; };
-		84DA990B196CA6160064A552 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA990A196CA6160064A552 /* Cocoa.framework */; };
 		84DA990D196CA6210064A552 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA990C196CA6210064A552 /* SystemConfiguration.framework */; };
 		84DA990F196CA6270064A552 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA990E196CA6270064A552 /* Security.framework */; };
 		84DA9910196CA6300064A552 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA990A196CA6160064A552 /* Cocoa.framework */; };
@@ -63,9 +38,7 @@
 		84DA9915196CA70C0064A552 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA9914196CA70C0064A552 /* MobileCoreServices.framework */; };
 		84DA9917196CA7180064A552 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA9916196CA7180064A552 /* UIKit.framework */; };
 		84DA993C196CAD000064A552 /* RACAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA97D6196C9FEA0064A552 /* RACAFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84DA993D196CAD000064A552 /* AFHTTPRequestOperationManager+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA97ED196CA0430064A552 /* AFHTTPRequestOperationManager+RACSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84DA993E196CAD000064A552 /* AFHTTPSessionManager+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA97EF196CA0430064A552 /* AFHTTPSessionManager+RACSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84DA993F196CAD000064A552 /* AFURLConnectionOperation+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA97F1196CA0430064A552 /* AFURLConnectionOperation+RACSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84DA9940196CAD000064A552 /* RACSubscriber+AFProgressCallbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA97F3196CA0430064A552 /* RACSubscriber+AFProgressCallbacks.h */; };
 		84DA9941196CAD000064A552 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA97FF196CA05D0064A552 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84DA9942196CAD000064A552 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA9801196CA05D0064A552 /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -79,9 +52,7 @@
 		84DA994A196CAD000064A552 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA9810196CA05D0064A552 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84DA994B196CAD000064A552 /* AFHTTPRequestOperationManager+RAFMocking.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA98DA196CA4E00064A552 /* AFHTTPRequestOperationManager+RAFMocking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84DA994C196CAD4C0064A552 /* RACAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA97D6196C9FEA0064A552 /* RACAFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84DA994D196CAD4C0064A552 /* AFHTTPRequestOperationManager+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA97ED196CA0430064A552 /* AFHTTPRequestOperationManager+RACSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84DA994E196CAD4C0064A552 /* AFHTTPSessionManager+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA97EF196CA0430064A552 /* AFHTTPSessionManager+RACSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84DA994F196CAD4C0064A552 /* AFURLConnectionOperation+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA97F1196CA0430064A552 /* AFURLConnectionOperation+RACSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84DA9950196CAD4C0064A552 /* RACSubscriber+AFProgressCallbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA97F3196CA0430064A552 /* RACSubscriber+AFProgressCallbacks.h */; };
 		84DA9951196CAD4C0064A552 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA97FF196CA05D0064A552 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84DA9952196CAD4C0064A552 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DA9801196CA05D0064A552 /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -274,17 +245,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3FDD92BC1C23D97B00B6755E /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
+		3FDD92BD1C23D97B00B6755E /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
 		84DA97D1196C9FEA0064A552 /* RACAFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RACAFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DA97D5196C9FEA0064A552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84DA97D6196C9FEA0064A552 /* RACAFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACAFNetworking.h; sourceTree = "<group>"; };
 		84DA97DC196C9FEA0064A552 /* RACAFNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RACAFNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DA97E2196C9FEA0064A552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84DA97ED196CA0430064A552 /* AFHTTPRequestOperationManager+RACSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPRequestOperationManager+RACSupport.h"; sourceTree = "<group>"; };
-		84DA97EE196CA0430064A552 /* AFHTTPRequestOperationManager+RACSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPRequestOperationManager+RACSupport.m"; sourceTree = "<group>"; };
 		84DA97EF196CA0430064A552 /* AFHTTPSessionManager+RACSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+RACSupport.h"; sourceTree = "<group>"; };
 		84DA97F0196CA0430064A552 /* AFHTTPSessionManager+RACSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+RACSupport.m"; sourceTree = "<group>"; };
-		84DA97F1196CA0430064A552 /* AFURLConnectionOperation+RACSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFURLConnectionOperation+RACSupport.h"; sourceTree = "<group>"; };
-		84DA97F2196CA0430064A552 /* AFURLConnectionOperation+RACSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFURLConnectionOperation+RACSupport.m"; sourceTree = "<group>"; };
 		84DA97F3196CA0430064A552 /* RACSubscriber+AFProgressCallbacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RACSubscriber+AFProgressCallbacks.h"; sourceTree = "<group>"; };
 		84DA97F4196CA0430064A552 /* RACSubscriber+AFProgressCallbacks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RACSubscriber+AFProgressCallbacks.m"; sourceTree = "<group>"; };
 		84DA97FF196CA05D0064A552 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = External/AFNetworking/AFNetworking/AFHTTPRequestOperation.h; sourceTree = SOURCE_ROOT; };
@@ -349,8 +318,8 @@
 			files = (
 				84DA990F196CA6270064A552 /* Security.framework in Frameworks */,
 				84DA990D196CA6210064A552 /* SystemConfiguration.framework in Frameworks */,
-				84DA990B196CA6160064A552 /* Cocoa.framework in Frameworks */,
-				84DA9887196CA15D0064A552 /* ReactiveCocoa.framework in Frameworks */,
+				3FDD92C01C23D99200B6755E /* AFNetworking.framework in Frameworks */,
+				3FDD92C11C23D99200B6755E /* ReactiveCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,9 +356,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FDD92BB1C23D94D00B6755E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FDD92BC1C23D97B00B6755E /* AFNetworking.framework */,
+				3FDD92BD1C23D97B00B6755E /* ReactiveCocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84DA97C7196C9FEA0064A552 = {
 			isa = PBXGroup;
 			children = (
+				3FDD92BB1C23D94D00B6755E /* Frameworks */,
 				84DA97D3196C9FEA0064A552 /* RACAFNetworking */,
 				84DA97E0196C9FEA0064A552 /* RACAFNetworkingTests */,
 				84DA97D2196C9FEA0064A552 /* Products */,
@@ -452,12 +431,8 @@
 		84DA97FD196CA0470064A552 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				84DA97ED196CA0430064A552 /* AFHTTPRequestOperationManager+RACSupport.h */,
-				84DA97EE196CA0430064A552 /* AFHTTPRequestOperationManager+RACSupport.m */,
 				84DA97EF196CA0430064A552 /* AFHTTPSessionManager+RACSupport.h */,
 				84DA97F0196CA0430064A552 /* AFHTTPSessionManager+RACSupport.m */,
-				84DA97F1196CA0430064A552 /* AFURLConnectionOperation+RACSupport.h */,
-				84DA97F2196CA0430064A552 /* AFURLConnectionOperation+RACSupport.m */,
 				84DA97F3196CA0430064A552 /* RACSubscriber+AFProgressCallbacks.h */,
 				84DA97F4196CA0430064A552 /* RACSubscriber+AFProgressCallbacks.m */,
 			);
@@ -656,19 +631,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84DA9823196CA05D0064A552 /* AFURLSessionManager.h in Headers */,
-				84DA981F196CA05D0064A552 /* AFURLRequestSerialization.h in Headers */,
-				84DA981B196CA05D0064A552 /* AFSecurityPolicy.h in Headers */,
-				84DA97F9196CA0430064A552 /* AFURLConnectionOperation+RACSupport.h in Headers */,
-				84DA981D196CA05D0064A552 /* AFURLConnectionOperation.h in Headers */,
-				84DA9816196CA05D0064A552 /* AFHTTPSessionManager.h in Headers */,
 				84DA97F7196CA0430064A552 /* AFHTTPSessionManager+RACSupport.h in Headers */,
-				84DA9814196CA05D0064A552 /* AFHTTPRequestOperationManager.h in Headers */,
-				84DA97F5196CA0430064A552 /* AFHTTPRequestOperationManager+RACSupport.h in Headers */,
-				84DA9819196CA05D0064A552 /* AFNetworkReachabilityManager.h in Headers */,
-				84DA9821196CA05D0064A552 /* AFURLResponseSerialization.h in Headers */,
-				84DA9812196CA05D0064A552 /* AFHTTPRequestOperation.h in Headers */,
-				84DA9818196CA05D0064A552 /* AFNetworking.h in Headers */,
 				84DA97D7196C9FEA0064A552 /* RACAFNetworking.h in Headers */,
 				84DA97FB196CA0430064A552 /* RACSubscriber+AFProgressCallbacks.h in Headers */,
 			);
@@ -679,9 +642,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84DA994C196CAD4C0064A552 /* RACAFNetworking.h in Headers */,
-				84DA994D196CAD4C0064A552 /* AFHTTPRequestOperationManager+RACSupport.h in Headers */,
 				84DA994E196CAD4C0064A552 /* AFHTTPSessionManager+RACSupport.h in Headers */,
-				84DA994F196CAD4C0064A552 /* AFURLConnectionOperation+RACSupport.h in Headers */,
 				84DA9951196CAD4C0064A552 /* AFHTTPRequestOperation.h in Headers */,
 				84DA9952196CAD4C0064A552 /* AFHTTPRequestOperationManager.h in Headers */,
 				84DA9953196CAD4C0064A552 /* AFHTTPSessionManager.h in Headers */,
@@ -702,9 +663,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84DA993C196CAD000064A552 /* RACAFNetworking.h in Headers */,
-				84DA993D196CAD000064A552 /* AFHTTPRequestOperationManager+RACSupport.h in Headers */,
 				84DA993E196CAD000064A552 /* AFHTTPSessionManager+RACSupport.h in Headers */,
-				84DA993F196CAD000064A552 /* AFURLConnectionOperation+RACSupport.h in Headers */,
 				84DA9941196CAD000064A552 /* AFHTTPRequestOperation.h in Headers */,
 				84DA9942196CAD000064A552 /* AFHTTPRequestOperationManager.h in Headers */,
 				84DA9943196CAD000064A552 /* AFHTTPSessionManager.h in Headers */,
@@ -996,17 +955,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				84DA97F8196CA0430064A552 /* AFHTTPSessionManager+RACSupport.m in Sources */,
-				84DA981C196CA05D0064A552 /* AFSecurityPolicy.m in Sources */,
-				84DA97F6196CA0430064A552 /* AFHTTPRequestOperationManager+RACSupport.m in Sources */,
-				84DA9815196CA05D0064A552 /* AFHTTPRequestOperationManager.m in Sources */,
-				84DA981E196CA05D0064A552 /* AFURLConnectionOperation.m in Sources */,
-				84DA9813196CA05D0064A552 /* AFHTTPRequestOperation.m in Sources */,
-				84DA97FA196CA0430064A552 /* AFURLConnectionOperation+RACSupport.m in Sources */,
-				84DA9820196CA05D0064A552 /* AFURLRequestSerialization.m in Sources */,
-				84DA9817196CA05D0064A552 /* AFHTTPSessionManager.m in Sources */,
-				84DA981A196CA05D0064A552 /* AFNetworkReachabilityManager.m in Sources */,
-				84DA9822196CA05D0064A552 /* AFURLResponseSerialization.m in Sources */,
-				84DA9824196CA05D0064A552 /* AFURLSessionManager.m in Sources */,
 				84DA97FC196CA0430064A552 /* RACSubscriber+AFProgressCallbacks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1024,9 +972,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84DA98A3196CA2070064A552 /* AFHTTPRequestOperationManager+RACSupport.m in Sources */,
 				84DA98A4196CA2070064A552 /* AFHTTPSessionManager+RACSupport.m in Sources */,
-				84DA98A5196CA2070064A552 /* AFURLConnectionOperation+RACSupport.m in Sources */,
 				84DA98A6196CA2070064A552 /* RACSubscriber+AFProgressCallbacks.m in Sources */,
 				84DA98A7196CA2070064A552 /* AFHTTPRequestOperation.m in Sources */,
 				84DA98A8196CA2070064A552 /* AFHTTPRequestOperationManager.m in Sources */,
@@ -1192,14 +1138,17 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				FRAMEWORK_VERSION = A;
 				GCC_PREFIX_HEADER = "RACAFNetworking/RACAFNetworking-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = RACAFNetworking/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -1218,14 +1167,17 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				FRAMEWORK_VERSION = A;
 				GCC_PREFIX_HEADER = "RACAFNetworking/RACAFNetworking-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = RACAFNetworking/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
