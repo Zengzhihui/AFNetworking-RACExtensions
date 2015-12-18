@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "84DA97D0196C9FEA0064A552"
+               BlueprintIdentifier = "3FDD92D61C2400FE00B6755E"
                BuildableName = "RACAFNetworking.framework"
                BlueprintName = "RACAFNetworking"
                ReferencedContainer = "container:RACAFNetworking.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "84DA97D0196C9FEA0064A552"
+            BlueprintIdentifier = "3FDD92D61C2400FE00B6755E"
             BuildableName = "RACAFNetworking.framework"
             BlueprintName = "RACAFNetworking"
             ReferencedContainer = "container:RACAFNetworking.xcodeproj">
@@ -65,7 +65,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "84DA97D0196C9FEA0064A552"
+            BlueprintIdentifier = "3FDD92D61C2400FE00B6755E"
             BuildableName = "RACAFNetworking.framework"
             BlueprintName = "RACAFNetworking"
             ReferencedContainer = "container:RACAFNetworking.xcodeproj">
@@ -83,7 +83,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "84DA97D0196C9FEA0064A552"
+            BlueprintIdentifier = "3FDD92D61C2400FE00B6755E"
             BuildableName = "RACAFNetworking.framework"
             BlueprintName = "RACAFNetworking"
             ReferencedContainer = "container:RACAFNetworking.xcodeproj">
