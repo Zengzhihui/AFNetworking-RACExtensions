@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1175C41C33DFA90043EA88 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDD92BC1C23D97B00B6755E /* AFNetworking.framework */; };
+		3F1175C51C33DFA90043EA88 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDD92BD1C23D97B00B6755E /* ReactiveCocoa.framework */; };
 		3FDD92DA1C2400FE00B6755E /* RACAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FDD92D91C2400FE00B6755E /* RACAFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3FDD92DF1C24013500B6755E /* AFHTTPSessionManager+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA97F0196CA0430064A552 /* AFHTTPSessionManager+RACSupport.m */; };
 		3FDD92E01C24013500B6755E /* RACSubscriber+AFProgressCallbacks.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA97F4196CA0430064A552 /* RACSubscriber+AFProgressCallbacks.m */; };
@@ -200,6 +202,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1175C41C33DFA90043EA88 /* AFNetworking.framework in Frameworks */,
+				3F1175C51C33DFA90043EA88 /* ReactiveCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,6 +712,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = RACAFNetworking/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -730,6 +738,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = RACAFNetworking/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -844,6 +856,7 @@
 				3FDD92DE1C2400FE00B6755E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84DA97CB196C9FEA0064A552 /* Build configuration list for PBXProject "RACAFNetworking" */ = {
 			isa = XCConfigurationList;

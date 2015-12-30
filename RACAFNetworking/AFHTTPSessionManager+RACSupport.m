@@ -5,7 +5,7 @@
 //  Created by Robert Widmann on 5/20/14.
 //  Copyright (c) 2014 CodaFi. All rights reserved.
 //
-
+#import <Foundation/Foundation.h>
 #import "AFHTTPSessionManager+RACSupport.h"
 
 NSString *const RACAFNResponseObjectErrorKey = @"responseObject";
