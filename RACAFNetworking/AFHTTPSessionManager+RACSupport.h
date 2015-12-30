@@ -9,8 +9,6 @@
 #import <AFNetworking/AFHTTPSessionManager.h>
 #import <ReactiveCocoa/ReactiveCocoa.h>
 
-#if (defined(__IPHONE_OS_VERSION_MAX_ALLOWED) && __IPHONE_OS_VERSION_MAX_ALLOWED >= 70000) || (defined(__MAC_OS_X_VERSION_MAX_ALLOWED) && __MAC_OS_X_VERSION_MAX_ALLOWED >= 1090)
-
 extern NSString *const RACAFNResponseObjectErrorKey;
 
 @interface AFHTTPSessionManager (RACSupport)
@@ -44,5 +42,3 @@ extern NSString *const RACAFNResponseObjectErrorKey;
 - (RACSignal *)rac_DELETE:(NSString *)path parameters:(id)parameters;
 
 @end
-
-#endif
